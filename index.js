@@ -2,11 +2,14 @@
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 
 var votingAge = age => {
-    if (age >= 18) {
-      console.log('True');
-    } 
+  if (age > 18) {
+    console.log('True');
   }
-  console.log(votingAge(18))
+  else {
+    console.log('False');
+  } 
+}
+console.log(votingAge(18))
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
 
@@ -166,13 +169,18 @@ else if (player1 === "scissors") {
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
 
+var kilometers = 15
+var miles = kilometers / 1.6;
+console.log(miles);
 
 
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
   
-
+var feet = 15
+var cm = feet * 30.48;
+console.log(cm);
 
 
 
